@@ -14,14 +14,12 @@ public class Piosenka {
     }
 
     @Override
-    public String git ntoString() {
-        return "Piosenka{" +
-                "tytul='" + tytul + '\'' +
-                ", artysta='" + artysta + '\'' +
-                ", gatunek='" + gatunek + '\'' +
-                ", rok=" + rok +
-                ", liczbaOdtworzen=" + liczbaOdtworzen +
-                '}';
+    public String toString() {
+        return          "tytul='" + tytul + '\'' +
+                        ", artysta='" + artysta + '\'' +
+                        ", gatunek='" + gatunek + '\'' +
+                        ", rok=" + rok +
+                        ", liczbaOdtworzen=" + liczbaOdtworzen;
     }
 
     public String getTytul() {
