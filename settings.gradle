@@ -2,4 +2,5 @@ rootProject.name = 'Learning'
 include 'src:main:Lambda'
 findProject(':src:main:Lambda')?.name = 'Lambda'
 include 'Lambda'
+include 'Exceptions'
 
